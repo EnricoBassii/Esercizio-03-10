@@ -1,0 +1,17 @@
+1.Tramite il comando "top" visualizziamo i processi in esecuzione nel sistema Kali Linux. La colonna denominata PID è quella identificativa del PROCESS IDENTIFIER, ovvero il codice identificativo relativo al programma selezionato.
+La colonna USER si rifrisce all' utente (in questo caso enrico o root) che ha lanciato il processo. La colonna COMMAND descrive quale comando è stato eseguito dall' utente (enrico) o dall' utente amministratore (root) per lanciare il detereminato programma.
+
+2. Utilizzando la riga di comando pipe "|" ho filtrato i programmi in esecuzione dal terminale per visualizzare solo i processi eseguiti dall' utente enrico e poi solo i processi eseguiti dall' utente amministratore di sistema (root). Il comando utilizzato è stato: Top | Grep enrico e Top | Grep root
+
+3. Utilizzando il comando change directory "cd desktop" ho selezionato il percorso di destinazione (in questo caso il desktop) della directory che ho creato poco dopo con il comando "mkdir Epicode_Lab".
+
+4. Dal terminale sempre utilizzando il comando "cd" mi sono spostato prima in desktop, poi nella cartella appena creata Epicode_Lab e da qui, utilizzando un nuovo comando ">> Esercizio.txt" ho creato il file richiesto dall' esercizio all' interno della cartella.
+
+5. Rimanendo all' interno della directory Epicode_Lab ho eseguito il comando NANO per aprire l' editor di testo seguito dalla stringa Esercizio.txt per entrare all' interno di quest' ultimo file e poterlo modificare direttamente tramite il terminale.
+
+6. Con il comando cat Esercizio.txt ho visualizzato a schermo del terminale la modifica che ho apportato precedentemente al file Esercizio.txt
+
+7. Con il comando ls -la ho visualizzato tutti i file all' interno della directory creata in precedenza, ho controllato i privilegi assegnati ad u(utente) g(gruppo) e o(altri) e li ho modificati con il comando chmod come richiedeva l' esercizio.
+
+8. Ho poi modificato i privilegi in modo che "altri utenti" non potessero leggere il file rimuovendo il permesso "r" tramite il comando "chmod o-r Esercizio.txt" 
+
